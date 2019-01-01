@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Deyasuno Bed & Breakfast</title>
+      <link rel="stylesheet" href="style.css"> 
+      <script src="behavior.js"></script> 
+</head>
+<body>
+      <div class="wrapper">
+      <header class="main-header">
+         <a href="index.html"><h1>Deyasuno Bed & Breakfast</h1>
+         <h2 class="slogan">A charming inn located in Spring Valley, California</h2> </a>
+      </header>
+
+      <nav>
+         <ul>
+           <li><a href="index.html">About US</a></li>
+            <li><a href="roomandrates.html">Room and Rates</a></li>
+            <li><a href="gourmetdelights.html">Gourmet Delights</a></li>
+            <li><a href="currencyconverter.html">Currency Converter</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="request.html">Request</a></li>
+         </ul>
+      </nav>
+
+      <div class="currencyconverter">
+
+         <div class="col-4">   
+         <h2>Currency Converter</h2>
+         <p> This is the currency converter for US Dollar, British Pound, Euro, Japanese Yen, and Chinese Yuan. For other currencies, please click <a href="https://cuex.com/en" target="_blank">here</a>.
+         <br>Latest updated: Dec 15th, 1 AM UTC.
+         
+         <form name="converter">
+            <table border="0">
+            <tr>
+            <td>Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
+            </tr>
+            <tr>
+            <td>US Dollar: </td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
+            </tr>
+            <tr>
+            <td>British Pound:</td><td><input type="text" name="pound" onChange="poundConverter()" /></td>
+            </tr>
+            <tr>
+            <td>Japanese Yen: </td><td><input type="text" name="yen" onChange="yenConverter()" /></td>
+            </tr>
+            <tr>
+            <td>Chinese Yuan: </td><td><input type="text" name="yuan" onChange="yuanConverter()" /></td>
+            </tr>
+
+            <tr>
+            <td><input type="button" value="Convert"/><input type="reset" value="Reset"></td>
+            </tr>
+
+            </table>
+            </form>
+
+            </div>
+
+            <div class="col-8">
+            <img src="images/currencyconverter.png" alt="Currency Converter" width="720" height="440">
+            <figcaption>International clients are welcome!</figcaption>
+            </div>
+
+
+      </div>
+
+      <div class="footer">
+         <p>47 Sunset Road, Spring Valley, CA 91977 1-866-555-7324
+         <br>Copyright @ 2018 Tuan Nguyen. All Rights Reserved.</p>
+         </div>
+
+   </div>
+</body>
+</html>

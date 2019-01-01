@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Deyasuno Bed & Breakfast</title>
+      <link rel="stylesheet" href="style.css">  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="behavior.js"></script>  
+</head>
+<body>
+      <div class="wrapper">
+      <header class="main-header">
+         <a href="index.html"><h1>Deyasuno Bed & Breakfast</h1>
+         <h2 class="slogan">A charming inn located in Spring Valley, California</h2> </a>
+      </header>
+
+      <nav>
+         <ul>
+           <li><a href="index.html">About US</a></li>
+            <li><a href="roomandrates.html">Room and Rates</a></li>
+            <li><a href="gourmetdelights.html">Gourmet Delights</a></li>
+            <li><a href="currencyconverter.html">Currency Converter</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="request.html">Request</a></li>
+         </ul>
+      </nav>
+
+<div class = "request">
+<h2>Submit your request here: </h2>
+<p>*: required.</p>
+
+<form name="RegForm" action="thankyou.html" onsubmit="return Validate()" method="post"> 
+
+    <p>First Name*: <br>
+    <input type="text" size=65 name="first_name" class="textInput" placeholder="Enter your first name" required> </p>
+
+    <p>Last Name*: <br><input type="text" size=65 name="last_name" class="textInput" placeholder="Enter your last name" required> </p>  
+
+    <p>E-mail Address*: <br><input type="text" size=65 pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" name="email" placeholder="E.g: me@example.com" title="Please provide a valid email address. E.g: me@example.com " required>  </p>  
+
+    <p>Address Line 1*: <br><input type="text" size=65 name="address_line_1" class="textInput" placeholder="Street Address, P.O.Box, etc." required> </p> 
+
+    <p>Address Line 2:<br><input type="text" size=65 name="address_line_2" class="textInput" placeholder="Apartment, suite, unit, building, etc. "> </p>
+
+    <p>City*<br><input type="text" size=65 name="city" class="textInput" placeholder="Enter your city" required > </p>
+   
+<div class="state"> 
+  <label>State*</label>
+    <div>
+    <select name="state">
+      <option>Select your state</option>
+      <option>AL</option>
+      <option>AK</option>
+      <option>AZ</option>
+      <option>AR</option>
+      <option>CA</option>
+      <option>CO</option>
+      <option>CT</option>
+      <option>DE</option>
+      <option>FL</option>
+      <option>GA</option>
+      <option>HI</option>
+      <option>ID</option>
+      <option>IL</option>
+      <option>IN</option>
+      <option>IA</option>
+      <option>KS</option>
+      <option>KY</option>
+      <option>LA</option>
+      <option>ME</option>
+      <option>MD</option>
+      <option>MA</option>
+      <option>MI</option>
+      <option>MN</option>
+      <option>MS</option>
+      <option>MO</option>
+      <option>MT</option>
+      <option>NE</option>
+      <option>NV</option>
+      <option>NH</option>
+      <option>NJ</option>
+      <option>NM</option>
+      <option>NY</option>
+      <option>NC</option>
+      <option>ND</option>
+      <option>OH</option>
+      <option>OK</option>
+      <option>OR</option>
+      <option>PA</option>
+      <option>RI</option>
+      <option>SC</option>
+      <option>SD</option>
+      <option>TN</option>
+      <option>TX</option>
+      <option>UT</option>
+      <option>VT</option>
+      <option>VA</option>
+      <option>WA</option>
+      <option>WV</option>
+      <option>WI</option>
+      <option>WY</option>
+    </select>
+  </div>
+</div>
+
+<p>Zip Code*:<br><input type="text" size=65 name="zipcode" class="textInput" pattern="[0-9]{5}" placeholder="Enter your zip code" title="Please enter your 5-digit US Zip code" required> </p>
+
+<p>Upload file:</p><input type="file" id="myFile">
+
+<p>Request*: <br> <textarea minlength="20" cols="60" name="comment" title="Please enter your request here" required></textarea></p> 
+
+<p>Please click "Submit" to send your request. Click "Reset" to start over.</p>
+    <p><input type="submit" value="Submit" name="Submit">      
+        <input type="reset" value="Reset" name="Reset">   
+
+</form>
+</div>
+
+<footer>
+         <p>47 Sunset Road, Spring Valley, CA 91977 1-866-555-7324
+         <br>Copyright @ 2018 Tuan Nguyen. All Rights Reserved.</p>
+      </footer>
+
+</div>
+
+  
+</body>
+</html>
+
+<!-- References: 
+   https://abbreviations.yourdictionary.com/articles/state-abbrev.html-->

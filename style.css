@@ -1,0 +1,394 @@
+/* Tuan Nguyen ITC 2400 */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Calibri Light", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  background: #F0FFFF
+}
+
+.main-header {
+  background: #204393;
+  display: block;
+  padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main-header h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.slogan {
+	text-align: center;
+	font-size: 30px;
+    color:white;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+body {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F0FFFF
+}
+
+nav{
+  background: #4369ab;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a{
+  text-decoration:none;
+  text-align:center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  display: block;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: #362cb2;
+  text-decoration: underline;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav li {
+  flex: 1 1 0;
+}
+
+/* For mobile phone: */
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* About us */
+.aboutus img {
+  max-width: 100%;
+  font-weight: bold;
+}
+
+.aboutus figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.aboutus h2 {
+  font-size: 30px;
+    color: #32128d;
+    text-decoration: underline;
+}
+
+.aboutus p {
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.aboutus::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Room and Rates*/
+.roomandrates h2 {
+  font-size: 30px;
+    color: #32128d;
+    text-decoration: underline;
+}
+
+.roomandrates p {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.roomandrates img {
+  max-width: 100%;
+  font-weight: bold;
+}
+
+.roomandrates figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.room ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.room li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.room li:hover {
+    background-color: #0099cc;
+}
+
+.room a {
+  text-decoration:none;
+  font-size: 20px;
+  color: #ffffff;
+  display:block;
+}
+
+.roomandrates::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.roomandrates1 figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.roomandrates2 figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.roomandrates3 figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.roomandrates4 figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+
+/* Gourmet Delights */
+.gourmetdelights img {
+  max-width: 100%;
+  font-weight: bold;
+}
+
+.gourmetdelights figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.gourmetdelights h2 {
+  font-size: 30px;
+    color: #32128d;
+    text-decoration: underline;
+}
+
+.gourmetdelights p {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.gourmetdelights::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #222f79;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #204393;
+}
+
+.menu a {
+  text-decoration:none;
+  font-size: 20px;
+  color: #ffffff;
+  display:block;
+}
+
+.gourmetdelights1 figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.gourmetdelights2 figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.gourmetdelights3 figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+/* Currency converter */
+.currencyconverter img {
+  max-width: 100%;
+  font-weight: bold;
+}
+
+.currencyconverter figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.currencyconverter h2 {
+  font-size: 30px;
+    color: #32128d;
+    text-decoration: underline;
+}
+
+.currencyconverter p {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.currencyconverter::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.currencyconverter td {
+  font-size: 15px;
+  padding-right: 10px;
+  color: #32128d;
+  font-weight: bold;
+}
+
+/* Contact us */
+.contactus img {
+  max-width: 100%;
+  font-weight: bold;
+  float: right;
+}
+
+.contactus figcaption {
+  font-size: 20px;
+  color: #32128d;
+  text-align: center;
+}
+
+.contactus h2 {
+  font-size: 30px;
+    color: #32128d;
+    text-decoration: underline;
+}
+
+.contactus p {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.contactus::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  background-color: #362cb2;
+  bottom: 0;
+  width: 100%;
+  max-width: 960px;
+  font-size: 15px;
+   color: #ffffff;
+   text-align: center;
+}
+
+.request {
+  text-align: left;
+  display: block;
+  color: #32128d;
+  font-weight: bold;
+  position: relative;
+}
+
+
+.request h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 0 30 0 0;
+}
+
+
+.textInput { 
+  text-transform: capitalize; 
+}
+
+footer {
+  background-color: #362cb2;
+  bottom: 0;
+  width: 100%;
+  max-width: 960px;
+  font-size: 15px;
+   color: #ffffff;
+   text-align: center;
+}
